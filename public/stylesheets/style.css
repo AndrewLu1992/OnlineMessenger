@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 15px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('http://www.pixelstalk.net/wp-content/uploads/2016/04/Pictures-download-Pink-Wallpapers-Color.jpg');
+  background-size: cover;
+}
+
+a {
+  font: 13px;
+  color: #00B7FF;
+  cursor: pointer;
+}
+
+a:hover,
+a:active {
+  font: 14px;
+  color: #00B7FF;
+  text-decoration: underline;
+}
+
+a.danger {
+  color: red;
+}
+
+.spacing {
+  margin-bottom: 20px;
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
